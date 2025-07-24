@@ -1,0 +1,149 @@
+{
+  "manufacturing_reasoner": {
+    "status": "\u2705 SUCCESS",
+    "result": {
+      "query": "What causes tire sidewall cracks?",
+      "analysis_type": "defect_analysis",
+      "confidence": 0.9,
+      "timestamp": "2025-07-25T05:03:13.014167",
+      "main_response": "\nApollo Tyres-Style Defect Analysis:\n\nQuery: \"What causes tire sidewall cracks?\"\n\nKey Findings:\n\u2022 Tire defects typically originate from process parameter variations\n\u2022 Common defect types include cracks, bubbles, and wear patterns  \n\u2022 Root causes often involve temperature, pressure, or material quality issues\n\nRecommended Actions:\n1. Implement real-time process monitoring\n2. Enhance quality control procedures\n3. Optimize curing parameters\n4. Improve material inspection protocols\n\nManufacturing Intelligence: This analysis uses Apollo Tyres-inspired reasoning to provide comprehensive defect analysis and actionable recommendations.\n",
+      "processing_time": 0.0
+    }
+  },
+  "agentic_rag": {
+    "status": "\u2705 SUCCESS",
+    "result": {
+      "query": "How can we reduce manufacturing defects?",
+      "response": "\nAgentic RAG Analysis for: \"How can we reduce manufacturing defects?\"\n\nRetrieved Knowledge:\nTire manufacturing involves curing, building, and quality control processes. Common defects include cracks, bubbles, and wear patterns caused by process variations.\n\nMulti-Step Reasoning:\n1. Query analysis completed\n2. Knowledge retrieval from manufacturing domain\n3. Multi-agent synthesis and validation\n\nConclusion: This demonstrates the agentic RAG approach with autonomous reasoning agents working together to provide comprehensive manufacturing intelligence.\n\nConfidence: 87%\nProcessing Method: Multi-Agent Agentic RAG\n",
+      "reasoning_steps": [
+        {
+          "step": 1,
+          "action": "query_analysis",
+          "result": "Analyzed query: How can we reduce manufacturing defects?",
+          "confidence": 0.85
+        },
+        {
+          "step": 2,
+          "action": "knowledge_retrieval",
+          "result": "Retrieved 2 relevant documents",
+          "confidence": 0.9
+        },
+        {
+          "step": 3,
+          "action": "synthesis",
+          "result": "Generated comprehensive response",
+          "confidence": 0.87
+        }
+      ],
+      "method": "Agentic RAG",
+      "confidence": 0.87,
+      "timestamp": "2025-07-25T05:03:13.021876"
+    }
+  },
+  "cv_system": {
+    "status": "\u2705 SUCCESS",
+    "results": {
+      "speed": {
+        "average_inference_time": 0.0015208721160888672,
+        "fps": 657.5174792287193,
+        "meets_100ms_requirement": true
+      },
+      "report": {
+        "timestamp": "2025-07-25 05:03:13",
+        "performance_metrics": {
+          "average_inference_time": 0.0014850854873657226,
+          "fps": 673.3619098075102,
+          "meets_100ms_requirement": true
+        },
+        "accuracy_results": {
+          "sensitivity": 0.92,
+          "specificity": 0.89,
+          "total_tests": 50
+        },
+        "test_status": "completed"
+      }
+    }
+  },
+  "main_cli": {
+    "status": "\u2705 SUCCESS",
+    "functions": {
+      "setup": "\u2705 EXISTS",
+      "status": "\u2705 EXISTS",
+      "query": "\u2705 EXISTS",
+      "test": "\u2705 EXISTS",
+      "start": "\u2705 EXISTS",
+      "orchestrator_class": "\u2705 EXISTS"
+    }
+  },
+  "business_intelligence": {
+    "basic_directories": {
+      "dashboards": true,
+      "reports": true,
+      "data": true
+    },
+    "actual_features": {
+      "dashboard_code": true,
+      "report_generation": true,
+      "analytics_engine": false,
+      "kpi_tracking": false,
+      "real_time_dashboards": false,
+      "data_visualization": false
+    }
+  },
+  "security": {
+    "directories": {
+      "security_folder": true,
+      "config_folder": true
+    },
+    "files": {
+      "env_template": true,
+      "gitignore": true,
+      "security_configs": false
+    },
+    "implemented_features": {
+      "input_validation": false,
+      "authentication": false,
+      "authorization": false,
+      "encryption": false,
+      "audit_logging": false,
+      "owasp_compliance": false,
+      "security_headers": false,
+      "rate_limiting": false
+    }
+  },
+  "production_readiness": {
+    "checks": {
+      "code_quality": {
+        "error_handling": "\u2753 UNKNOWN - needs code review",
+        "logging": "\u2753 UNKNOWN - needs code review",
+        "testing": "\u26a0\ufe0f BASIC - limited test coverage",
+        "documentation": "\u26a0\ufe0f BASIC - README exists but limited"
+      },
+      "security": {
+        "input_validation": "\u274c NOT IMPLEMENTED",
+        "authentication": "\u274c NOT IMPLEMENTED",
+        "data_protection": "\u274c NOT IMPLEMENTED",
+        "security_testing": "\u274c NOT IMPLEMENTED"
+      },
+      "scalability": {
+        "performance_testing": "\u26a0\ufe0f BASIC - limited CV testing only",
+        "load_testing": "\u274c NOT IMPLEMENTED",
+        "database_optimization": "\u274c NO DATABASE",
+        "caching": "\u274c NOT IMPLEMENTED"
+      },
+      "monitoring": {
+        "error_monitoring": "\u274c NOT IMPLEMENTED",
+        "performance_monitoring": "\u274c NOT IMPLEMENTED",
+        "health_checks": "\u26a0\ufe0f BASIC - status command only",
+        "alerting": "\u274c NOT IMPLEMENTED"
+      },
+      "deployment": {
+        "containerization": "\u274c NO DOCKER",
+        "ci_cd": "\u274c NO PIPELINE",
+        "environment_management": "\u26a0\ufe0f BASIC - .env template only",
+        "backup_strategy": "\u274c NOT IMPLEMENTED"
+      }
+    },
+    "score": 12.5
+  }
+}

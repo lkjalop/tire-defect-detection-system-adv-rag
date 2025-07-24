@@ -1,0 +1,58 @@
+{
+  "imports": {
+    "Standard Library": {
+      "json": "\u2705 SUCCESS",
+      "os": "\u2705 SUCCESS",
+      "sys": "\u2705 SUCCESS",
+      "pathlib": "\u2705 SUCCESS",
+      "asyncio": "\u2705 SUCCESS"
+    },
+    "Installed Packages": {
+      "click": "\u2705 SUCCESS",
+      "rich": "\u2705 SUCCESS",
+      "torch": "\u2705 SUCCESS",
+      "pandas": "\u2705 SUCCESS"
+    },
+    "Our Components": {
+      "agents.manufacturing_reasoner": "\u2705 SUCCESS",
+      "tools.agentic_rag_engine": "\u2705 SUCCESS",
+      "testing.cv_testing": "\u2705 SUCCESS"
+    }
+  },
+  "manufacturing_reasoner": {
+    "status": "\u274c FAILED",
+    "error": "'ManufacturingReasoner' object has no attribute 'analyze_query'"
+  },
+  "agentic_rag": {
+    "status": "\u274c FAILED",
+    "error": "'AgenticRAGEngine' object has no attribute 'process_query'"
+  },
+  "cv_system": {
+    "status": "\u274c FAILED",
+    "error": "'TireDefectTester' object has no attribute 'test_performance'"
+  },
+  "main_cli": {
+    "status": "\u2705 SUCCESS",
+    "functions": {
+      "setup": "\u2705 EXISTS",
+      "status": "\u2705 EXISTS",
+      "query_cmd": "\u274c MISSING",
+      "test_cmd": "\u274c MISSING"
+    }
+  },
+  "business_intelligence": {
+    "dashboards": true,
+    "reports": true,
+    "analytics": false,
+    "kpis": false,
+    "real_time_monitoring": false
+  },
+  "security": {
+    "owasp_compliance": false,
+    "authentication": false,
+    "input_validation": false,
+    "data_encryption": false,
+    "audit_logging": false,
+    "security_testing": false
+  }
+}
