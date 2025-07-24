@@ -1,0 +1,514 @@
+# 🚀 Tire Manufacturing RAG System - Git Ignore Configuration
+
+# ===================================================================
+# ENVIRONMENT AND SECRETS
+# ===================================================================
+.env
+.env.local
+.env.production
+.env.staging
+*.key
+*.pem
+*.crt
+secrets/
+config/secrets/
+
+# ===================================================================
+# PYTHON
+# ===================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff (if used):
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff (if used):
+instance/
+.webassets-cache
+
+# Scrapy stuff (if used):
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# poetry
+poetry.lock
+
+# pdm
+.pdm.toml
+
+# PEP 582
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+tire-rag-env/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# PyCharm
+.idea/
+
+# ===================================================================
+# AI/ML MODELS AND DATA
+# ===================================================================
+# Large model files
+*.pt
+*.pth
+*.onnx
+*.pkl
+*.joblib
+*.h5
+*.hdf5
+*.pb
+*.tflite
+models/
+!models/.gitkeep
+
+# Training data and artifacts
+data/raw/
+data/processed/
+data/models/
+data/cache/
+data/temp/
+!data/sample/
+!data/.gitkeep
+
+# Weights & Biases
+wandb/
+
+# MLflow
+mlruns/
+mlartifacts/
+
+# TensorBoard logs
+logs/
+tensorboard/
+
+# ===================================================================
+# DATABASES
+# ===================================================================
+*.db
+*.sqlite
+*.sqlite3
+*.duckdb
+*.neo4j
+
+# ChromaDB
+chroma_db/
+data/chroma_db/
+
+# Vector embeddings
+embeddings/
+*.faiss
+*.annoy
+
+# ===================================================================
+# LOGS AND MONITORING
+# ===================================================================
+*.log
+logs/
+data/logs/
+monitoring/
+metrics/
+
+# Prometheus data
+prometheus_data/
+
+# Grafana data
+grafana_data/
+
+# ===================================================================
+# REPORTS AND OUTPUTS
+# ===================================================================
+reports/
+data/reports/
+outputs/
+results/
+screenshots/
+plots/
+charts/
+
+# Test outputs
+test-results/
+test-reports/
+coverage-reports/
+
+# ===================================================================
+# SYSTEM FILES
+# ===================================================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.tmp
+*.temp
+~$*
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ===================================================================
+# IDE AND EDITORS
+# ===================================================================
+# Visual Studio Code
+.vscode/launch.json
+.vscode/tasks.json
+.vscode/c_cpp_properties.json
+.vscode/settings.json.backup
+
+# Sublime Text
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
+
+# Vim
+[._]*.s[a-v][a-z]
+!*.svg
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+Session.vim
+Sessionx.vim
+.netrwhist
+*~
+tags
+[._]*.un~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+.org-id-locations
+*_archive
+*_flymake.*
+/eshell/history
+/eshell/lastdir
+/elpa/
+*.rel
+/auto/
+.cask/
+dist/
+flycheck_*.el
+/server/
+.projectile
+.dir-locals.el
+/network-security.data
+
+# ===================================================================
+# DEPLOYMENT AND INFRASTRUCTURE
+# ===================================================================
+# Docker
+Dockerfile.prod
+docker-compose.override.yml
+.dockerignore
+
+# Kubernetes
+*.yaml.backup
+*.yml.backup
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+
+# Ansible
+*.retry
+
+# ===================================================================
+# PACKAGE MANAGERS AND DEPENDENCIES
+# ===================================================================
+# npm
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+.npm
+.eslintcache
+.stylelintcache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# ===================================================================
+# BACKUP AND TEMPORARY FILES
+# ===================================================================
+*.bak
+*.backup
+*.swp
+*.swo
+*~
+*.orig
+*.rej
+.*.tmp
+
+# Backup directories
+backups/
+data/backups/
+*.backup/
+
+# ===================================================================
+# SECURITY AND COMPLIANCE
+# ===================================================================
+# Security scan results
+security-reports/
+vulnerability-reports/
+penetration-test-results/
+
+# Compliance artifacts
+compliance-reports/
+audit-logs/
+access-logs/
+
+# ===================================================================
+# MANUFACTURING SPECIFIC
+# ===================================================================
+# Production data (NEVER commit real production data)
+production-data/
+sensor-data/
+quality-reports/
+defect-images/
+manufacturing-logs/
+
+# Calibration files (may contain sensitive equipment data)
+calibration/
+equipment-configs/
+
+# Customer data (NEVER commit)
+customer-data/
+customer-reports/
+proprietary-formulations/
+
+# ===================================================================
+# TESTING
+# ===================================================================
+# Test data (except samples)
+test-data/
+!test-data/samples/
+
+# Performance test results
+performance-results/
+load-test-results/
+benchmark-results/
+
+# ===================================================================
+# DOCUMENTATION BUILD ARTIFACTS
+# ===================================================================
+# Sphinx
+_build/
+_static/
+_templates/
+
+# MkDocs
+site/
+
+# GitBook
+_book/
+
+# ===================================================================
+# CLOUD AND SERVICES
+# ===================================================================
+# AWS
+.aws/
+
+# Google Cloud
+.gcloud/
+*-service-account-key.json
+
+# Azure
+.azure/
+
+# ===================================================================
+# DEVELOPMENT CACHE
+# ===================================================================
+.cache/
+cache/
+tmp/
+temp/
+.tmp/
+.temp/
+
+# ===================================================================
+# CUSTOM ADDITIONS (MODIFY AS NEEDED)
+# ===================================================================
+# Add your project-specific ignore patterns here
+
+# Example: Ignore specific config files
+# config/production.yaml
+
+# Example: Ignore user-specific settings
+# .user-settings.json
+
+# ===================================================================
+# KEEP IMPORTANT EMPTY DIRECTORIES
+# ===================================================================
+# Use .gitkeep files in empty directories you want to preserve
+!.gitkeep
+!*/.gitkeep
+
+# ===================================================================
+# IMPORTANT NOTES
+# ===================================================================
+#
+# This .gitignore file protects:
+# 1. Your secrets and API keys (.env files)
+# 2. Large AI models and data files
+# 3. System-generated cache and logs
+# 4. Personal development files
+# 5. Production and sensitive manufacturing data
+#
+# What gets tracked:
+# - Source code (.py files)
+# - Configuration templates
+# - Documentation
+# - Small sample data files
+# - Project structure files
+#
+# ===================================================================
