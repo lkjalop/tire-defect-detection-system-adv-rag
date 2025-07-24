@@ -1,6 +1,33 @@
 # 🚀 Tire Manufacturing RAG System
 ## Multi-Agent Agentic RAG + GraphRAG Business Intelligence Platform
 
+---
+
+## ⚠️ **PROOF OF CONCEPT & HANDOFF DISCLAIMER**
+
+**This repository is a working proof of concept, built and tested on a standard laptop.**
+
+- It demonstrates enterprise architecture patterns and integration points for a real-world tire manufacturing AI system.
+- It is **not production-ready** and is intended for demonstration and learning purposes only.
+- For a real pilot, this code should be handed off to professional computer vision, IoT, security, AI/ML, and data engineering teams for integration with real customer data, hardware, and production infrastructure.
+- All performance metrics are for reference only and will differ on production hardware and with real data.
+
+**What has been achieved:**
+- Multi-agent RAG and manufacturing reasoner architecture
+- Modular, extensible codebase with CLI and performance testing
+- Honest documentation of capabilities and limitations
+- Clear roadmap for what’s needed for production
+
+**Why this is valuable:**
+- Shows understanding of enterprise patterns and the difference between demo and production
+- Provides a solid foundation for real experts to build on
+- Demonstrates ability to architect, document, and hand off a technical prototype
+
+**For reviewers and hiring managers:**
+> This is a comprehensive proof of concept, not a production system. It demonstrates my ability to architect and prototype enterprise AI solutions. For a real pilot, it should be handed off to domain experts for integration, optimization, and deployment with real data and hardware.
+
+---
+
 ### ⚠️ **IMPORTANT DISCLAIMERS**
 
 **🔬 DEMONSTRATION PURPOSES ONLY**
